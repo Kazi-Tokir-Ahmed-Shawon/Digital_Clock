@@ -1,0 +1,26 @@
+.clock {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  
+  .date {
+    margin-bottom: 10px;
+  }
+  
+  .time {
+    font-size: 48px;
+  }
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(./images/bg.webp) no-repeat center;
+    background-size: cover;
+    position: relative;
+    color: var(--white);
+  }
+  
