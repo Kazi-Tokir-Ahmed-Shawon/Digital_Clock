@@ -1,0 +1,15 @@
+This code will create a digital clock that displays the current date and time in real time. 
+The HTML file sets up the basic structure of the web page, including a div container with a clock div inside.
+The clock div contains two child divs, one to display the date and one to display the time.
+
+The CSS file styles the clock and its child divs, centers the text, and sets the font and size.
+It also styles the div container, making it a full-height flexbox with a background image.
+
+The JavaScript file provides the functions for the clock. The getDate() function gets the current
+date and formats it as a string and returns the result. The updateTime() function gets the current 
+time and formats it as a string, updating the time display on the web page every second using setInterval(). 
+The document.querySelector() method is used to select date and time div elements and update their inner HTML 
+with formatted date and time strings.
+
+Overall, this code uses a combination of HTML, CSS, and JavaScript to create a simple yet functional digital
+clock that updates in real time.
